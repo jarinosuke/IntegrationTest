@@ -18,8 +18,9 @@
     self = [super init];
     if (self) {
         
-        _fromMe  = YES;
-        _message = message;
+        _fromMe      = YES;
+        _message     = message;
+        _createdDate = [NSDate date];
         
     }
     return self;

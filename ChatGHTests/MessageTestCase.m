@@ -50,4 +50,16 @@
     GHAssertTrue([_message.message isEqualToString:testMessageChanged], @"Message.message value should change when setted.");
 }
 
+- (void)testCreatedDate {
+    //check createdDate value is before than now.
+    NSComparisonResult result = [_message.createdDate compare:[NSDate date]];
+    BOOL isCreatedBefore;
+    if (result == NSOrderedAscending) {
+        isCreatedBefore = YES;
+    } else {
+        isCreatedBefore = NO;
+    }
+    GHAssertTrue(isCreatedBefore, @"message.createdDate is must be before than now.");    
+}
+
 @end

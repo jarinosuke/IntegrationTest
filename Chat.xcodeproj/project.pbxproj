@@ -29,6 +29,11 @@
 		2B001839161E84900087BB25 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B001838161E84900087BB25 /* GHUnitIOS.framework */; };
 		2B00183C161E91CA0087BB25 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B00183B161E91CA0087BB25 /* Message.m */; };
 		2B00183F161E922E0087BB25 /* MessageTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B00183E161E922E0087BB25 /* MessageTestCase.m */; };
+		2B08F5F3161E99AF0066AA15 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B00183B161E91CA0087BB25 /* Message.m */; };
+		2B08F5F8161E99E60066AA15 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F5F7161E99E60066AA15 /* Room.m */; };
+		2B08F5F9161E99E60066AA15 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F5F7161E99E60066AA15 /* Room.m */; };
+		2B08F5FC161E9BFA0066AA15 /* RoomTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F5FB161E9BFA0066AA15 /* RoomTestCase.m */; };
+		2B08F5FD161E9BFA0066AA15 /* RoomTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F5FB161E9BFA0066AA15 /* RoomTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,9 +62,12 @@
 		2B001829161E84240087BB25 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2B00182B161E84240087BB25 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2B001838161E84900087BB25 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
-		2B00183A161E91CA0087BB25 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
-		2B00183B161E91CA0087BB25 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		2B00183A161E91CA0087BB25 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Message.h; path = ChatGHTests/Message.h; sourceTree = SOURCE_ROOT; };
+		2B00183B161E91CA0087BB25 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Message.m; path = ChatGHTests/Message.m; sourceTree = SOURCE_ROOT; };
 		2B00183E161E922E0087BB25 /* MessageTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTestCase.m; sourceTree = "<group>"; };
+		2B08F5F6161E99E60066AA15 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		2B08F5F7161E99E60066AA15 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		2B08F5FB161E9BFA0066AA15 /* RoomTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,7 @@
 		2B0017F5161E840C0087BB25 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				2B08F5F5161E99C60066AA15 /* Model */,
 				2B0017FE161E840C0087BB25 /* AppDelegate.h */,
 				2B0017FF161E840C0087BB25 /* AppDelegate.m */,
 				2B001807161E840C0087BB25 /* ViewController.h */,
@@ -147,10 +156,9 @@
 		2B00181B161E84240087BB25 /* ChatGHTests */ = {
 			isa = PBXGroup;
 			children = (
-				2B00181C161E84240087BB25 /* Supporting Files */,
-				2B00183A161E91CA0087BB25 /* Message.h */,
-				2B00183B161E91CA0087BB25 /* Message.m */,
 				2B00183E161E922E0087BB25 /* MessageTestCase.m */,
+				2B08F5FB161E9BFA0066AA15 /* RoomTestCase.m */,
+				2B00181C161E84240087BB25 /* Supporting Files */,
 			);
 			path = ChatGHTests;
 			sourceTree = "<group>";
@@ -167,6 +175,17 @@
 				2B00182B161E84240087BB25 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B08F5F5161E99C60066AA15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B00183A161E91CA0087BB25 /* Message.h */,
+				2B00183B161E91CA0087BB25 /* Message.m */,
+				2B08F5F6161E99E60066AA15 /* Room.h */,
+				2B08F5F7161E99E60066AA15 /* Room.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B08F5F3161E99AF0066AA15 /* Message.m in Sources */,
 				2B0017FC161E840C0087BB25 /* main.m in Sources */,
 				2B001800161E840C0087BB25 /* AppDelegate.m in Sources */,
 				2B001809161E840C0087BB25 /* ViewController.m in Sources */,
+				2B08F5F8161E99E60066AA15 /* Room.m in Sources */,
+				2B08F5FC161E9BFA0066AA15 /* RoomTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +299,8 @@
 				2B001822161E84240087BB25 /* main.m in Sources */,
 				2B00183C161E91CA0087BB25 /* Message.m in Sources */,
 				2B00183F161E922E0087BB25 /* MessageTestCase.m in Sources */,
+				2B08F5F9161E99E60066AA15 /* Room.m in Sources */,
+				2B08F5FD161E9BFA0066AA15 /* RoomTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
