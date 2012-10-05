@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "ScenarioTestController.h"
 
 @implementation AppDelegate
 
@@ -20,6 +21,14 @@
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
+    
+#if RUN_KIF_TESTS
+    [[ScenarioTestController sharedInstance] startTestingWithCompletionBlock:^{
+        // Exit after the tests complete so that CI knows we're done
+        exit([[ScenarioTestController sharedInstance] failureCount]);
+    }];
+#endif
+
     return YES;
 }
 

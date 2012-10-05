@@ -13,6 +13,9 @@
 
 @interface MessageViewController () {
     IBOutlet UITableView *_tableView;
+    IBOutlet UIBarButtonItem *_deleteMessageButton;
+    IBOutlet UIBarButtonItem *_addMessageButton;
+    
     NSMutableArray *_messages;
 }
 
@@ -38,6 +41,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    _addMessageButton.accessibilityLabel    = @"addmessage";
+    _deleteMessageButton.accessibilityLabel = @"deletemessage";
 }
 
 - (void)didReceiveMemoryWarning

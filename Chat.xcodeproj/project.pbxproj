@@ -46,6 +46,27 @@
 		2B08F624161EB2EC0066AA15 /* SelectRoomViewTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F623161EB2EC0066AA15 /* SelectRoomViewTestCase.m */; };
 		2B08F627161EB3760066AA15 /* MessageViewTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F626161EB3760066AA15 /* MessageViewTestCase.m */; };
 		2B08F628161EB4FA0066AA15 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B00180A161E840C0087BB25 /* ViewController.xib */; };
+		2B08F638161EB7B10066AA15 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B00183B161E91CA0087BB25 /* Message.m */; };
+		2B08F639161EB7B10066AA15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0017FB161E840C0087BB25 /* main.m */; };
+		2B08F63A161EB7B10066AA15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0017FF161E840C0087BB25 /* AppDelegate.m */; };
+		2B08F63B161EB7B10066AA15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B001808161E840C0087BB25 /* ViewController.m */; };
+		2B08F63C161EB7B10066AA15 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F5F7161E99E60066AA15 /* Room.m */; };
+		2B08F63D161EB7B10066AA15 /* SelectRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F615161EA7D50066AA15 /* SelectRoomViewController.m */; };
+		2B08F63E161EB7B10066AA15 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F61C161EAED50066AA15 /* MessageViewController.m */; };
+		2B08F640161EB7B10066AA15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0017EF161E840C0087BB25 /* UIKit.framework */; };
+		2B08F641161EB7B10066AA15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0017F1161E840C0087BB25 /* Foundation.framework */; };
+		2B08F642161EB7B10066AA15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0017F3161E840C0087BB25 /* CoreGraphics.framework */; };
+		2B08F644161EB7B10066AA15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B0017F8161E840C0087BB25 /* InfoPlist.strings */; };
+		2B08F645161EB7B10066AA15 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B001801161E840C0087BB25 /* Default.png */; };
+		2B08F646161EB7B10066AA15 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B001803161E840C0087BB25 /* Default@2x.png */; };
+		2B08F647161EB7B10066AA15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B001805161E840C0087BB25 /* Default-568h@2x.png */; };
+		2B08F648161EB7B10066AA15 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B00180A161E840C0087BB25 /* ViewController.xib */; };
+		2B08F649161EB7B10066AA15 /* SelectRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B08F616161EA7D50066AA15 /* SelectRoomViewController.xib */; };
+		2B08F64A161EB7B10066AA15 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B08F61D161EAED50066AA15 /* MessageViewController.xib */; };
+		2B08F653161EB82A0066AA15 /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B08F652161EB82A0066AA15 /* libKIF.a */; };
+		2B08F65C161EB9AE0066AA15 /* ScenarioTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F65B161EB9AE0066AA15 /* ScenarioTestController.m */; };
+		2B08F65F161EB9EC0066AA15 /* KIFTestStep+EXAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F65E161EB9EC0066AA15 /* KIFTestStep+EXAdditions.m */; };
+		2B08F662161EB9FC0066AA15 /* KIFTestScenario+EXAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F661161EB9FC0066AA15 /* KIFTestScenario+EXAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +110,15 @@
 		2B08F61D161EAED50066AA15 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
 		2B08F623161EB2EC0066AA15 /* SelectRoomViewTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectRoomViewTestCase.m; sourceTree = "<group>"; };
 		2B08F626161EB3760066AA15 /* MessageViewTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewTestCase.m; sourceTree = "<group>"; };
+		2B08F64E161EB7B10066AA15 /* Chat IntegrationTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat IntegrationTests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B08F650161EB7B10066AA15 /* Chat copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Chat copy-Info.plist"; path = "/Users/jarinosuke/Desktop/Chat/Chat copy-Info.plist"; sourceTree = "<absolute>"; };
+		2B08F652161EB82A0066AA15 /* libKIF.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libKIF.a; path = "../git/KIF/build/Release-iphoneos/libKIF.a"; sourceTree = "<group>"; };
+		2B08F65A161EB9AE0066AA15 /* ScenarioTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenarioTestController.h; sourceTree = "<group>"; };
+		2B08F65B161EB9AE0066AA15 /* ScenarioTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenarioTestController.m; sourceTree = "<group>"; };
+		2B08F65D161EB9EC0066AA15 /* KIFTestStep+EXAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestStep+EXAdditions.h"; sourceTree = "<group>"; };
+		2B08F65E161EB9EC0066AA15 /* KIFTestStep+EXAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestStep+EXAdditions.m"; sourceTree = "<group>"; };
+		2B08F660161EB9FC0066AA15 /* KIFTestScenario+EXAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestScenario+EXAdditions.h"; sourceTree = "<group>"; };
+		2B08F661161EB9FC0066AA15 /* KIFTestScenario+EXAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestScenario+EXAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,16 +143,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B08F63F161EB7B10066AA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B08F653161EB82A0066AA15 /* libKIF.a in Frameworks */,
+				2B08F640161EB7B10066AA15 /* UIKit.framework in Frameworks */,
+				2B08F641161EB7B10066AA15 /* Foundation.framework in Frameworks */,
+				2B08F642161EB7B10066AA15 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2B0017E0161E840C0087BB25 = {
 			isa = PBXGroup;
 			children = (
+				2B08F654161EB93F0066AA15 /* IntegrationTests */,
 				2B0017F5161E840C0087BB25 /* Chat */,
 				2B00181B161E84240087BB25 /* ChatGHTests */,
 				2B0017EE161E840C0087BB25 /* Frameworks */,
 				2B0017EC161E840C0087BB25 /* Products */,
+				2B08F650161EB7B10066AA15 /* Chat copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +174,7 @@
 			children = (
 				2B0017EB161E840C0087BB25 /* Chat.app */,
 				2B001816161E84240087BB25 /* ChatGHTests.app */,
+				2B08F64E161EB7B10066AA15 /* Chat IntegrationTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,6 +262,20 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		2B08F654161EB93F0066AA15 /* IntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B08F652161EB82A0066AA15 /* libKIF.a */,
+				2B08F65A161EB9AE0066AA15 /* ScenarioTestController.h */,
+				2B08F65B161EB9AE0066AA15 /* ScenarioTestController.m */,
+				2B08F65D161EB9EC0066AA15 /* KIFTestStep+EXAdditions.h */,
+				2B08F65E161EB9EC0066AA15 /* KIFTestStep+EXAdditions.m */,
+				2B08F660161EB9FC0066AA15 /* KIFTestScenario+EXAdditions.h */,
+				2B08F661161EB9FC0066AA15 /* KIFTestScenario+EXAdditions.m */,
+			);
+			name = IntegrationTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,9 +296,9 @@
 			productReference = 2B0017EB161E840C0087BB25 /* Chat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2B001815161E84240087BB25 /* ChatGHTests */ = {
+		2B001815161E84240087BB25 /* Chat UnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B00182D161E84240087BB25 /* Build configuration list for PBXNativeTarget "ChatGHTests" */;
+			buildConfigurationList = 2B00182D161E84240087BB25 /* Build configuration list for PBXNativeTarget "Chat UnitTests" */;
 			buildPhases = (
 				2B001812161E84240087BB25 /* Sources */,
 				2B001813161E84240087BB25 /* Frameworks */,
@@ -250,9 +308,26 @@
 			);
 			dependencies = (
 			);
-			name = ChatGHTests;
+			name = "Chat UnitTests";
 			productName = ChatGHTests;
 			productReference = 2B001816161E84240087BB25 /* ChatGHTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B08F636161EB7B10066AA15 /* Chat IntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B08F64B161EB7B10066AA15 /* Build configuration list for PBXNativeTarget "Chat IntegrationTests" */;
+			buildPhases = (
+				2B08F637161EB7B10066AA15 /* Sources */,
+				2B08F63F161EB7B10066AA15 /* Frameworks */,
+				2B08F643161EB7B10066AA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chat IntegrationTests";
+			productName = Chat;
+			productReference = 2B08F64E161EB7B10066AA15 /* Chat IntegrationTests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -277,7 +352,8 @@
 			projectRoot = "";
 			targets = (
 				2B0017EA161E840C0087BB25 /* Chat */,
-				2B001815161E84240087BB25 /* ChatGHTests */,
+				2B001815161E84240087BB25 /* Chat UnitTests */,
+				2B08F636161EB7B10066AA15 /* Chat IntegrationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,6 +384,20 @@
 				2B00182C161E84240087BB25 /* Default-568h@2x.png in Resources */,
 				2B08F61A161EA7D50066AA15 /* SelectRoomViewController.xib in Resources */,
 				2B08F621161EAED70066AA15 /* MessageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B08F643161EB7B10066AA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B08F644161EB7B10066AA15 /* InfoPlist.strings in Resources */,
+				2B08F645161EB7B10066AA15 /* Default.png in Resources */,
+				2B08F646161EB7B10066AA15 /* Default@2x.png in Resources */,
+				2B08F647161EB7B10066AA15 /* Default-568h@2x.png in Resources */,
+				2B08F648161EB7B10066AA15 /* ViewController.xib in Resources */,
+				2B08F649161EB7B10066AA15 /* SelectRoomViewController.xib in Resources */,
+				2B08F64A161EB7B10066AA15 /* MessageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +433,23 @@
 				2B08F61F161EAED70066AA15 /* MessageViewController.m in Sources */,
 				2B08F624161EB2EC0066AA15 /* SelectRoomViewTestCase.m in Sources */,
 				2B08F627161EB3760066AA15 /* MessageViewTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B08F637161EB7B10066AA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B08F638161EB7B10066AA15 /* Message.m in Sources */,
+				2B08F639161EB7B10066AA15 /* main.m in Sources */,
+				2B08F63A161EB7B10066AA15 /* AppDelegate.m in Sources */,
+				2B08F63B161EB7B10066AA15 /* ViewController.m in Sources */,
+				2B08F63C161EB7B10066AA15 /* Room.m in Sources */,
+				2B08F63D161EB7B10066AA15 /* SelectRoomViewController.m in Sources */,
+				2B08F63E161EB7B10066AA15 /* MessageViewController.m in Sources */,
+				2B08F65C161EB9AE0066AA15 /* ScenarioTestController.m in Sources */,
+				2B08F65F161EB9EC0066AA15 /* KIFTestStep+EXAdditions.m in Sources */,
+				2B08F662161EB9FC0066AA15 /* KIFTestScenario+EXAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +602,62 @@
 			};
 			name = Release;
 		};
+		2B08F64C161EB7B10066AA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chat/Chat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"RUN_KIF_TESTS=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Frameworks/KIF/**",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chat copy-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "Chat IntegrationTests";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B08F64D161EB7B10066AA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chat/Chat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"RUN_KIF_TESTS=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Frameworks/KIF/**",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chat copy-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "Chat IntegrationTests";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,11 +679,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B00182D161E84240087BB25 /* Build configuration list for PBXNativeTarget "ChatGHTests" */ = {
+		2B00182D161E84240087BB25 /* Build configuration list for PBXNativeTarget "Chat UnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B00182E161E84240087BB25 /* Debug */,
 				2B00182F161E84240087BB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B08F64B161EB7B10066AA15 /* Build configuration list for PBXNativeTarget "Chat IntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B08F64C161EB7B10066AA15 /* Debug */,
+				2B08F64D161EB7B10066AA15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
