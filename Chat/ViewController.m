@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "SelectRoomViewController.h"
 
-@interface ViewController ()
+@interface ViewController () {
+    IBOutlet UITextField *_usernameTextField;
+    IBOutlet UITextField *_passwordTextField;
+}
 
 @end
 
@@ -18,6 +22,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"LOG IN";
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +32,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Target Action
+- (IBAction)loginButtonTapped:(id)sender {
+    SelectRoomViewController *selectRoomViewController = [[SelectRoomViewController alloc] initWithNibName:@"SelectRoomViewController" bundle:nil];
+    [self.navigationController pushViewController:selectRoomViewController animated:YES];
+}
+
+- (IBAction)backgroundViewTapped:(id)sender {
+    [_usernameTextField resignFirstResponder];
+    [_passwordTextField resignFirstResponder];
+}
 @end
