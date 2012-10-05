@@ -1,0 +1,15 @@
+//
+//  AppDelegate.h
+//  ChatGHTests
+//
+//  Created by jarinosuke on 10/5/12.
+//  Copyright (c) 2012 jarinosuke. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
