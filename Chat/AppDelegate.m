@@ -9,7 +9,10 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+
+#if RUN_KIF_TESTS
 #import "ScenarioTestController.h"
+#endif
 
 @implementation AppDelegate
 
