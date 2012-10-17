@@ -160,9 +160,9 @@
 		2B0017E0161E840C0087BB25 = {
 			isa = PBXGroup;
 			children = (
-				2B08F654161EB93F0066AA15 /* IntegrationTests */,
 				2B0017F5161E840C0087BB25 /* Chat */,
 				2B00181B161E84240087BB25 /* ChatGHTests */,
+				2B08F654161EB93F0066AA15 /* IntegrationTests */,
 				2B0017EE161E840C0087BB25 /* Frameworks */,
 				2B0017EC161E840C0087BB25 /* Products */,
 			);
@@ -268,10 +268,10 @@
 				2B08F650161EB7B10066AA15 /* Chat copy-Info.plist */,
 				2B08F65A161EB9AE0066AA15 /* ScenarioTestController.h */,
 				2B08F65B161EB9AE0066AA15 /* ScenarioTestController.m */,
-				2B08F65D161EB9EC0066AA15 /* KIFTestStep+EXAdditions.h */,
-				2B08F65E161EB9EC0066AA15 /* KIFTestStep+EXAdditions.m */,
 				2B08F660161EB9FC0066AA15 /* KIFTestScenario+EXAdditions.h */,
 				2B08F661161EB9FC0066AA15 /* KIFTestScenario+EXAdditions.m */,
+				2B08F65D161EB9EC0066AA15 /* KIFTestStep+EXAdditions.h */,
+				2B08F65E161EB9EC0066AA15 /* KIFTestStep+EXAdditions.m */,
 			);
 			name = IntegrationTests;
 			sourceTree = "<group>";

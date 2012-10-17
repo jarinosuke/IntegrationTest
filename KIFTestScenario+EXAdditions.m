@@ -37,7 +37,6 @@
 + (id)scenarioToAddMessage
 {
     KIFTestScenario *scenario = [KIFTestScenario scenarioWithDescription:@"Test that a user can add message."];
-    
     for (int addCount = 0; addCount < 5; addCount++) {
         [scenario addStep:[KIFTestStep stepToTapViewWithAccessibilityLabel:@"addmessage"]];
     }
